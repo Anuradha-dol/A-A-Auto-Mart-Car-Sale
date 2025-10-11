@@ -1,0 +1,115 @@
+:root {
+  --accent-blue: #2563eb;
+  --accent-green: #10b981;
+  --radius-md: 10px;
+  --shadow-lg: 0 12px 36px rgba(0,0,0,0.15);
+  --transition: 0.3s ease;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  padding: 30px 40px;
+  background: linear-gradient(135deg, #fdf6e3, #e6fffa);
+  color: #222;
+}
+
+.dashboard-container h2,
+.dashboard-container h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.dashboard-container form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  background: #fff;
+  padding: 25px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 30px;
+}
+
+.dashboard-container input[type="text"],
+.dashboard-container input[type="number"],
+.dashboard-container input[type="file"],
+.dashboard-container select {
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid #cfd8dc;
+  font-size: 14px;
+  width: 100%;
+  transition: border var(--transition), box-shadow var(--transition);
+}
+
+.dashboard-container input:focus,
+.dashboard-container select:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+}
+
+/* Submit Button spans full row */
+.dashboard-container form button {
+  grid-column: 1 / -1;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition);
+}
+
+.dashboard-container form button:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
+/* Table */
+.dashboard-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.dashboard-container th,
+.dashboard-container td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.dashboard-container thead {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  color: #fff;
+}
+
+.dashboard-container tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.dashboard-container tbody tr:hover {
+  background: #e0f2fe;
+  transform: scale(1.01);
+  transition: all var(--transition);
+}
+
+.dashboard-container img {
+  width: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Responsive for small screens */
+@media (max-width: 500px) {
+  .dashboard-container form {
+    grid-template-columns: 1fr;
+  }
+}
