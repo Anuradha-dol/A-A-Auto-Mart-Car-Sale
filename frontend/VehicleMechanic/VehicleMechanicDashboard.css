@@ -1,0 +1,135 @@
+:root {
+  --primary-green: #10b981;
+  --primary-blue: #2563eb;
+  --bg-color: #ffffff;
+  --text-color: #1f2937;
+  --card-radius: 12px;
+  --card-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  --spacing: 20px;
+  --font-family: 'Segoe UI', sans-serif;
+}
+
+.vm-dashboard {
+  font-family: var(--font-family);
+  background: linear-gradient(135deg, #e6fffa, #ffffff);
+  min-height: 100vh;
+  padding: var(--spacing);
+  color: var(--text-color);
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: var(--spacing);
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: var(--card-radius);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+.profile-btn {
+  background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+}
+.profile-btn:hover {
+  opacity: 0.85;
+}
+
+.logout-btn {
+  background-color: #ef4444;
+}
+.logout-btn:hover {
+  opacity: 0.85;
+}
+
+/* Header */
+.vm-header { text-align: center; margin-bottom: 20px; }
+.vm-header h1 { font-size: 2rem; margin-bottom: 6px; }
+.vm-header .subtitle { font-size: 1rem; color: #555; }
+
+/* Stats */
+.vm-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing);
+  margin: var(--spacing) 0;
+}
+.stat-card {
+  background-color: var(--bg-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  text-align: center;
+  padding: var(--spacing);
+  transition: transform 0.2s ease;
+}
+.stat-card:hover { transform: translateY(-3px); }
+.stat-card h2 { font-size: 1.5rem; margin: 8px 0 0 0; color: var(--primary-green); }
+.stat-card p { margin: 6px 0 0 0; color: #555; }
+
+/* Actions */
+.vm-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing);
+}
+.vm-actions input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  border-radius: var(--card-radius);
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+}
+.action-btn {
+  background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));
+}
+.action-btn:hover { opacity: 0.85; }
+
+/* Table */
+.vm-table-container {
+  overflow-x: auto;
+  background: var(--bg-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  padding: var(--spacing);
+}
+.vm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+.vm-table th, .vm-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+.vm-table th {
+  background-color: #f9fafb;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #1f2937;
+  text-transform: uppercase;
+}
+.vm-table tbody tr:hover { background-color: #f4f7fb; }
+
+.actions button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.actions .edit { background-color: var(--primary-blue); color: white; }
+.actions .delete { background-color: #ef4444; color: white; }
+
+.no-works { text-align: center; color: #6b7280; font-style: italic; padding: 20px 0; }
