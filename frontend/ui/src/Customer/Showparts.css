@@ -1,0 +1,135 @@
+:root {
+  --green: #10b981;
+  --blue: #2563eb;
+  --dark-green: #065f46;
+  --white: #ffffff;
+  --light-green: #f0fdfa;
+  --radius: 10px;
+  --shadow: 0 6px 15px rgba(0,0,0,0.1);
+  --transition: 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card */
+.pd-card {
+  max-width: 400px;
+  margin: 1.5rem auto;
+  padding: 15px 15px;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--green);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title */
+.pd-title {
+  font-size: 1.4rem;
+  color: var(--green);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Image */
+.pd-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+}
+
+/* Info */
+.pd-info p {
+  font-size: 0.9rem;
+  color: var(--dark-green);
+  margin: 3px 0;
+}
+
+/* Status Badge */
+.pd-status {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+.pd-status.Available { background: #d1fae5; color: var(--dark-green); }
+.pd-status.Limited { background: #fef3c7; color: #b45309; }
+.pd-status.OutOfStock { background: #fee2e2; color: #991b1b; }
+
+/* Quantity Input */
+.pd-quantity label {
+  font-weight: 600;
+  color: var(--dark-green);
+  font-size: 0.9rem;
+}
+.pd-quantity input {
+  width: 60px;
+  padding: 4px 6px;
+  border-radius: var(--radius);
+  border: 1px solid #cbd5e1;
+  font-size: 0.85rem;
+  margin-left: 6px;
+}
+
+/* Buttons */
+.pd-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-add-cart {
+  background: linear-gradient(90deg, var(--green), var(--blue));
+  color: var(--white);
+  font-weight: 600;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  transition: all var(--transition);
+}
+.btn-add-cart:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 4px 12px rgba(16,185,129,0.3);
+}
+
+.btn-back {
+  background: var(--white);
+  color: var(--green);
+  border: 2px solid var(--green);
+  font-weight: 600;
+  border-radius: var(--radius);
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  transition: all var(--transition);
+}
+.btn-back:hover {
+  background: var(--green);
+  color: var(--white);
+  transform: translateY(-1px) scale(1.02);
+}
+
+/* Loading / Empty */
+.pd-loading {
+  text-align: center;
+  font-weight: 600;
+  color: var(--green);
+  margin-top: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .pd-card { padding: 12px; }
+  .pd-title { font-size: 1.2rem; }
+  .pd-image { height: 150px; }
+  .pd-quantity input { width: 50px; }
+  .btn-add-cart, .btn-back { padding: 6px 10px; font-size: 0.85rem; }
+}

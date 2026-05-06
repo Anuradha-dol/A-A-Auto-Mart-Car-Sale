@@ -1,0 +1,161 @@
+.ratings-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 18px;
+  align-items: start;
+  background-color: #ffffff;   /* light card */
+  color: #0f172a;              /* dark slate text */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* LEFT column wrapper */
+.left-col {
+  display: grid;
+  gap: 14px;
+}
+
+/* bars */
+.breakdown .rating-row {
+  display: grid;
+  grid-template-columns: 42px 1fr 28px;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.bar-container {
+  width: 100%;
+  background: #e5e7eb;        /* light gray track */
+  height: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: #10b981;        /* emerald fill */
+  border-radius: 5px;
+}
+
+/* panels that fill the gap under the bars */
+.left-panels {
+  display: grid;
+  gap: 12px;
+}
+
+.highlights-box,
+.recent-box {
+  padding: 12px;
+  background: #ffffff;                           /* white cards */
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);     /* soft shadow */
+}
+
+.highlights-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.highlights-box h4,
+.recent-box h4 {
+  margin: 0;
+  color: #059669;        /* emerald heading */
+  font-size: 1rem;
+}
+
+.keyword-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.keyword-tags .tag {
+  background: #ecfdf5;                           /* mint chip */
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: #065f46;                                 /* deep emerald text */
+  transition: all 0.2s ease;
+  border: 1px solid rgba(16,185,129,.25);
+}
+
+.keyword-tags .tag:hover {
+  background: #d1fae5;                            /* darker mint on hover */
+  transform: translateY(-2px);
+}
+
+.recent-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 6px;
+}
+
+.recent-name {
+  color: #047857;      /* emerald-700 */
+  font-weight: 600;
+}
+
+.recent-text {
+  color: #374151;      /* gray-700 */
+}
+
+/* RIGHT column card */
+.average-box {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-rows: auto auto auto auto 1fr; /* chart grows */
+  gap: 8px;
+}
+
+.avg-rating {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stars span {
+  font-size: 24px;
+  color: #f59e0b;      /* warm amber stars */
+}
+
+.stars .filled { color: #f59e0b; }
+
+.muted { color: #6b7280; }  /* gray-500 */
+
+/* chips */
+.sentiment-chips {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #ecfdf5;                    /* mint base */
+  color: #065f46;
+  border: 1px solid rgba(16,185,129,.25);
+}
+.chip-pos { background: rgba(16,185,129,.15); color: #065f46; }  /* positive */
+.chip-neu { background: rgba(250,204,21,.18); color: #92400e; }  /* neutral */
+.chip-neg { background: rgba(239,68,68,.15);  color: #991b1b; }  /* negative */
+.chip-primary { background: #e0f2fe; color: #075985; }           /* soft blue */
+
+/* chart area gets a fixed height so ResponsiveContainer renders */
+.chart-box {
+  width: 100%;
+  height: 220px;
+}

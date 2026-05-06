@@ -1,0 +1,215 @@
+/* ===============================
+   AddSalaryForm Smooth Professional UI
+   =============================== */
+
+:root {
+  --accent-blue: #2563eb;
+  --accent-green: #10b981;
+  --accent-dark: #1e40af;
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.2);
+  --transition: 0.3s ease;
+  font-family: "Segoe UI", Inter, sans-serif;
+}
+
+/* Reset + full page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #fdf6e3, #e6fffa);
+  animation: fadeInBg 1.2s ease forwards;
+}
+
+@keyframes fadeInBg {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* LEFT: Image panel */
+.form-image {
+  flex: 1;
+  background: url('https://cdn.pixabay.com/photo/2016/11/12/08/00/background-1818440_1280.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+}
+
+/* RIGHT: Form panel */
+.form-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+}
+
+.form-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(255,255,255,0.05), transparent 70%);
+  z-index: 0;
+}
+
+/* Floating circles */
+.floating-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.03);
+  z-index: 0;
+  animation: float 15s ease-in-out infinite alternate;
+}
+.floating-circle.one { width: 120px; height: 120px; top: 10%; left: 15%; }
+.floating-circle.two { width: 80px; height: 80px; top: 60%; left: 70%; }
+.floating-circle.three { width: 150px; height: 150px; top: 40%; left: 40%; }
+
+@keyframes float {
+  0% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-20px) translateX(15px); }
+  100% { transform: translateY(0) translateX(0); }
+}
+
+/* Form card */
+.form-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 520px;
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 40px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Header */
+.form-card h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 28px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green), #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientText 6s ease infinite;
+}
+
+@keyframes gradientText {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Labels */
+.form-card label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1f2937;
+  font-size: 14px;
+}
+
+/* Inputs & selects */
+.form-card input,
+.form-card select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(0,0,0,0.15);
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #fdfdfd;
+}
+
+.form-card input:focus,
+.form-card select:focus {
+  border-color: var(--accent-green);
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+  transform: scale(1.02);
+}
+
+/* Submit button */
+.form-card button[type="submit"] {
+  padding: 15px 0;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green), #06b6d4);
+  background-size: 400% 400%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  animation: gradientBG 6s ease infinite;
+  transition: all 0.4s ease;
+}
+
+.form-card button[type="submit"]:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Back button */
+.back-home-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  background: rgba(255,255,255,0.7);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background: rgba(255,255,255,0.9);
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .form-container { flex-direction: column; }
+  .form-image { height: 30vh; min-height: 200px; flex: none; }
+  .form-wrapper { flex: 1; padding: 20px; }
+  .form-card { max-width: 90%; }
+  .back-home-btn { top: 10px; left: 10px; }
+}

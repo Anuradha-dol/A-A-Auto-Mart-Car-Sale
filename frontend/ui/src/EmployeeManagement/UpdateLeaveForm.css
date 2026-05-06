@@ -1,0 +1,125 @@
+.salary-form-wrapper {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 35px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.salary-form h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+.salary-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.salary-field label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.salary-field input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+  font-size: 15px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.salary-field input:focus {
+  border-color: #2e7d32;
+  box-shadow: 0 0 6px rgba(46,125,50,0.3);
+  outline: none;
+}
+
+.salary-btn {
+  width: 100%;
+  padding: 14px;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.salary-btn:hover {
+  background: #276c2b;
+  transform: translateY(-2px);
+}
+.leave-form-wrapper {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 35px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.leave-form-title {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+.leave-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-field label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.leave-field input,
+.leave-field select {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+  font-size: 15px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leave-field input:focus,
+.leave-field select:focus {
+  border-color: #2e7d32;
+  box-shadow: 0 0 6px rgba(46,125,50,0.3);
+  outline: none;
+}
+
+.leave-btn {
+  width: 100%;
+  padding: 14px;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.leave-btn:hover {
+  background: #276c2b;
+  transform: translateY(-2px);
+}

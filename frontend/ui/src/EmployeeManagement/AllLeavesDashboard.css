@@ -1,0 +1,125 @@
+/* Reset + font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Page background */
+.dashboard-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fdf6e3, #e6fffa); /* smooth cream → soft mint gradient */
+  animation: fadeInBg 1.2s ease forwards;
+}
+
+@keyframes fadeInBg {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Page heading */
+.dashboard-container h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+/* Table wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 16px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.15);
+  background: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.table-wrapper:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+/* Table */
+.leaves-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+}
+
+.leaves-table th {
+  padding: 14px 18px;
+  text-align: left;
+  background: linear-gradient(135deg, #2563eb, #10b981);
+  color: #fff;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.leaves-table td {
+  padding: 12px 16px;
+  background: #fdfdfd;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.leaves-table tr:nth-child(even) td {
+  background: #f6fdfb;
+}
+
+.leaves-table tr:hover td {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+/* Respond button */
+.respond-btn {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #2563eb, #10b981);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.respond-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #1e40af, #059669);
+}
+
+/* Loading text */
+.loading-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2563eb;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .leaves-table th,
+  .leaves-table td {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  .dashboard-container h2 {
+    font-size: 24px;
+  }
+
+  .respond-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

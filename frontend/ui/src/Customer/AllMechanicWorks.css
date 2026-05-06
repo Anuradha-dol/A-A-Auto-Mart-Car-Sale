@@ -1,0 +1,123 @@
+:root {
+  --primary-green: #16a34a;
+  --primary-blue: #2563eb;
+  --bg-gradient: linear-gradient(135deg, #e6f4ea, #f0fdfa); /* Green + white */
+  --card-bg: #fff;
+  --shadow: 0 12px 25px rgba(0,0,0,0.12);
+  --radius: 12px;
+  --transition: 0.3s ease;
+  --header-color: #065f46; /* Dark green for text */
+  --hover-row: #e0f2fe; /* light blue hover for rows */
+  --badge-pending: #facc15;
+  --badge-inprogress: #2563eb;
+  --badge-completed: #16a34a;
+}
+
+/* Container */
+.works-container {
+  padding: 30px;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg-gradient);
+}
+
+/* Card */
+.works-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 25px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+/* Header */
+.works-card h2 {
+  color: var(--primary-green);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.works-card h2::before {
+  content: "🔧"; /* wrench icon */
+  font-size: 2rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+thead {
+  background: var(--primary-blue); /* blue header */
+  color: #fff;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+tbody tr {
+  transition: background 0.3s;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+tbody tr:hover {
+  background: var(--hover-row);
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.status-pending {
+  background-color: var(--badge-pending);
+  color: #000;
+}
+
+.status-inprogress {
+  background-color: var(--badge-inprogress);
+}
+
+.status-completed {
+  background-color: var(--badge-completed);
+}
+
+/* No works message */
+.no-works {
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+/* Optional: h1 headings if any */
+h1 {
+  color: var(--primary-green);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}

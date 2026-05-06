@@ -1,0 +1,58 @@
+.pdf-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  font-family: "Helvetica", Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pdf-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pdf-header h1 {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.pdf-header p {
+  font-size: 14px;
+  color: #555;
+}
+
+.pdf-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.pdf-table th,
+.pdf-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.pdf-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.request-image {
+  width: 120px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+}
