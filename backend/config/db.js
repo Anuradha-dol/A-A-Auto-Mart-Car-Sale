@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const dburl = "mongodb+srv://anuradhawork123:20021214@cluster0.9umgipm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const dburl = "mongodb+srv://anuradhawork123:<password>@cluster0.9umgipm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Strict query mode
 mongoose.set("strictQuery", true);
