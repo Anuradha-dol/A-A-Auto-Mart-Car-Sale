@@ -24,6 +24,7 @@ export default function VehiclePartsManagerDashboard() {
     else if (hour >= 17 && hour < 21) setGreeting("Good Evening");
     else setGreeting("Good Night");
   }, []);
+  
 
   // Fetch user
   useEffect(() => {

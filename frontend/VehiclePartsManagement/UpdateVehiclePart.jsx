@@ -20,6 +20,7 @@ export default function UpdateVehiclePart({ fetchParts }) {
   const [preview, setPreview] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  
   const API = "http://localhost:3000/api/vehicleparts";
 
   useEffect(() => {

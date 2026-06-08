@@ -27,6 +27,7 @@ export default function VehiclePartCard({ part, handleDelete }) {
           className="vpc-btn vpc-edit-btn"
         >
           Edit
+          
         </button>
         <button
           onClick={() => handleDelete(part._id)}

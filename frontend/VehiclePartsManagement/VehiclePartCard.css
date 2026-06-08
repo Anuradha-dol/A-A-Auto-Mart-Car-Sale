@@ -20,6 +20,7 @@
   padding: 0 20px;
 }
 
+
 /* Responsive */
 @media (max-width: 1200px) { .vd-parts-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 768px) { .vd-parts-grid { grid-template-columns: repeat(2, 1fr); } }
