@@ -15,6 +15,7 @@ const vehiclePartRequestSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    
     partNumber: {
       type: String,
       required: false, // optional if not all parts have numbers
