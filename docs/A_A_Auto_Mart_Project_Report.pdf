@@ -1,0 +1,230 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 6 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 841.8898 595.2756 ]
+/Contents 5 0 R
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7600
+>>
+stream
+q 0.965 0.973 0.984 rg 0.00 0.00 841.89 595.28 re f Q
+q 0.045 0.078 0.118 rg 0.00 503.28 841.89 92.00 re f Q
+q 0.878 0.176 0.149 rg 0.00 499.28 841.89 4.00 re f Q
+BT 1.000 1.000 1.000 rg /F2 22.00 Tf 1 0 0 1 40.00 553.28 Tm (A-A Auto Mart Car Sale) Tj ET
+BT 0.820 0.880 0.950 rg /F1 14.00 Tf 1 0 0 1 40.00 525.28 Tm (Technology Stack & Frameworks Used) Tj ET
+BT 0.820 0.880 0.950 rg /F2 11.00 Tf 1 0 0 1 626.89 553.28 Tm (MERN Stack Web Application) Tj ET
+BT 0.700 0.770 0.860 rg /F1 9.00 Tf 1 0 0 1 626.89 533.28 Tm (Frontend + Backend + Database) Tj ET
+q 1.000 1.000 1.000 rg 40.00 408.28 761.89 62.00 re f Q
+q 0.820 0.860 0.900 RG 0.80 w 40.00 408.28 m 801.89 408.28 l S Q
+BT 0.100 0.120 0.160 rg /F2 12.00 Tf 1 0 0 1 58.00 446.28 Tm (Purpose of this page) Tj ET
+BT 0.250 0.290 0.360 rg /F1 9.20 Tf 1 0 0 1 58.00 426.28 Tm (This front page summarizes the frameworks, libraries, database, and development tools used in the project. The following) Tj ET
+BT 0.250 0.290 0.360 rg /F1 9.20 Tf 1 0 0 1 58.00 413.28 Tm (pages contain the full project overview, module UI screenshots, feature descriptions, and contribution details.) Tj ET
+q 1.000 1.000 1.000 rg 40.00 78.28 241.96 300.00 re f Q
+q 0.900 0.937 0.976 rg 40.00 344.28 241.96 34.00 re f Q
+BT 0.070 0.140 0.240 rg /F2 12.00 Tf 1 0 0 1 54.00 356.28 Tm (Frontend) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 324.28 Tm (React) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 312.28 Tm (Component-based UI for dashboards,) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 302.28 Tm (forms, profiles, and customer) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 292.28 Tm (pages.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 276.28 Tm (Vite) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 264.28 Tm (Fast development server and) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 254.28 Tm (optimized production build.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 238.28 Tm (React Router) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 226.28 Tm (Client-side navigation across all) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 216.28 Tm (user and manager modules.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 200.28 Tm (Axios) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 188.28 Tm (HTTP communication with backend) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 178.28 Tm (REST APIs.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 162.28 Tm (Material UI, React Icons) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 150.28 Tm (Reusable visual components, icons,) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 140.28 Tm (and form controls.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 124.28 Tm (Framer Motion) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 112.28 Tm (UI animation support for a richer) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 102.28 Tm (user experience.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 54.00 86.28 Tm (Recharts, jsPDF, html2canvas) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 74.28 Tm (Charts and report/download) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 54.00 64.28 Tm (generation.) Tj ET
+q 1.000 1.000 1.000 rg 299.96 78.28 241.96 300.00 re f Q
+q 0.900 0.937 0.976 rg 299.96 344.28 241.96 34.00 re f Q
+BT 0.070 0.140 0.240 rg /F2 12.00 Tf 1 0 0 1 313.96 356.28 Tm (Backend) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 324.28 Tm (Node.js) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 312.28 Tm (JavaScript runtime for the API) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 302.28 Tm (server.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 286.28 Tm (Express) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 274.28 Tm (REST API routing and middleware) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 264.28 Tm (handling.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 248.28 Tm (Mongoose) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 236.28 Tm (MongoDB schemas, validation, and) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 226.28 Tm (data access.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 210.28 Tm (Multer) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 198.28 Tm (Image and payment slip uploads.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 182.28 Tm (JSON Web Token) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 170.28 Tm (Authentication token support for) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 160.28 Tm (protected actions.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 144.28 Tm (Sentiment) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 132.28 Tm (Basic sentiment analysis for) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 122.28 Tm (review text.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 313.96 106.28 Tm (dotenv, CORS) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 94.28 Tm (Environment configuration and) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 313.96 84.28 Tm (frontend API access.) Tj ET
+q 1.000 1.000 1.000 rg 559.93 78.28 241.96 300.00 re f Q
+q 0.900 0.937 0.976 rg 559.93 344.28 241.96 34.00 re f Q
+BT 0.070 0.140 0.240 rg /F2 12.00 Tf 1 0 0 1 573.93 356.28 Tm (Database & Project Management) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 573.93 324.28 Tm (MongoDB Atlas / MongoDB) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 312.28 Tm (Primary database for users,) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 302.28 Tm (vehicles, orders, payments,) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 292.28 Tm (reviews, tickets, and employee) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 282.28 Tm (records.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 573.93 266.28 Tm (Git & GitHub) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 254.28 Tm (Version control, final branch) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 244.28 Tm (integration, and team contribution) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 234.28 Tm (history.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 573.93 218.28 Tm (npm) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 206.28 Tm (Dependency management and project) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 196.28 Tm (scripts.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 573.93 180.28 Tm (Environment Variables) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 168.28 Tm (MONGO_URI, PORT, and JWT_SECRET) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 158.28 Tm (are kept outside Git in local .env) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 148.28 Tm (files.) Tj ET
+BT 0.110 0.160 0.250 rg /F2 9.20 Tf 1 0 0 1 573.93 132.28 Tm (Security Cleanup) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 120.28 Tm (Secrets, node_modules, uploads,) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 110.28 Tm (and build output are excluded from) Tj ET
+BT 0.350 0.390 0.470 rg /F1 7.60 Tf 1 0 0 1 573.93 100.28 Tm (repository tracking.) Tj ET
+q 0.045 0.078 0.118 rg 40.00 25.00 761.89 36.00 re f Q
+BT 1.000 1.000 1.000 rg /F2 9.50 Tf 1 0 0 1 58.00 38.00 Tm (Documentation note:) Tj ET
+BT 0.820 0.880 0.950 rg /F1 9.00 Tf 1 0 0 1 168.00 38.00 Tm (The PDF continues with the original UI screenshots and module explanations without modifying those pages.) Tj ET
+
+endstream
+endobj
+6 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 841.8898 595.2756 ]
+/Contents 7 0 R
+/Parent 2 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 4704
+>>
+stream
+q 0.965 0.973 0.984 rg 0.00 0.00 841.89 595.28 re f Q
+q 0.047 0.090 0.133 rg 0.00 507.28 841.89 88.00 re f Q
+q 0.055 0.620 0.310 rg 0.00 503.28 841.89 4.00 re f Q
+BT 1.000 1.000 1.000 rg /F2 22.00 Tf 1 0 0 1 36.00 557.28 Tm (A-A Auto Mart) Tj ET
+BT 0.820 0.880 0.950 rg /F1 13.00 Tf 1 0 0 1 36.00 531.28 Tm (Web Application Screenshots & Module Overview) Tj ET
+BT 0.050 0.120 0.200 rg /F2 14.00 Tf 1 0 0 1 36.00 470.28 Tm (A-A Auto Mart - Vehicle Sales & Management Web Application) Tj ET
+BT 0.270 0.310 0.380 rg /F1 9.20 Tf 1 0 0 1 36.00 448.28 Tm (A group web application for vehicle dealership operations, including user management, vehicle inventory, vehicle parts, mechanic) Tj ET
+BT 0.270 0.310 0.380 rg /F1 9.20 Tf 1 0 0 1 36.00 435.28 Tm (work, employee salary, leave requests, payment/order handling, support tickets, reviews, and PDF/report features.) Tj ET
+BT 0.050 0.120 0.200 rg /F2 13.00 Tf 1 0 0 1 36.00 406.28 Tm (Module Contributions) Tj ET
+q 1.000 1.000 1.000 rg 36.00 126.28 769.89 266.00 re f Q
+q 0.035 0.600 0.290 rg 36.00 362.28 769.89 30.00 re f Q
+BT 1.000 1.000 1.000 rg /F2 9.50 Tf 1 0 0 1 46.00 372.28 Tm (Member) Tj ET
+BT 1.000 1.000 1.000 rg /F2 9.50 Tf 1 0 0 1 223.00 372.28 Tm (Main Responsibility) Tj ET
+q 0.840 0.880 0.920 RG 0.60 w 211.00 392.28 m 211.00 126.28 l S Q
+q 0.840 0.880 0.920 RG 0.60 w 36.00 126.28 769.89 266.00 re S Q
+q 0.984 0.988 0.992 rg 36.00 306.28 769.89 56.00 re f Q
+q 0.880 0.900 0.930 RG 0.60 w 36.00 306.28 m 805.89 306.28 l S Q
+BT 0.100 0.130 0.180 rg /F2 8.80 Tf 1 0 0 1 46.00 344.28 Tm (Anuradha Dolamulla) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 344.28 Tm (Employee management side: employee manager dashboard, leave management, salary management,) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 333.28 Tm (salary records, add/update salary, leave request flows, final branch integration, Git) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 322.28 Tm (cleanup, security cleanup, and documentation.) Tj ET
+q 0.880 0.900 0.930 RG 0.60 w 36.00 264.28 m 805.89 264.28 l S Q
+BT 0.100 0.130 0.180 rg /F2 8.80 Tf 1 0 0 1 46.00 288.28 Tm (Supuni Kavinda) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 288.28 Tm (User management side: login, sign up, user manager dashboard, add user form, and profile) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 277.28 Tm (management.) Tj ET
+q 0.984 0.988 0.992 rg 36.00 214.28 769.89 50.00 re f Q
+q 0.880 0.900 0.930 RG 0.60 w 36.00 214.28 m 805.89 214.28 l S Q
+BT 0.100 0.130 0.180 rg /F2 8.80 Tf 1 0 0 1 46.00 246.28 Tm (Dasmi Nayanama) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 246.28 Tm (Vehicle parts and mechanic side: parts inventory, part requests, mechanic dashboard, vehicle) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 235.28 Tm (work submission, update work, and mechanic work reports.) Tj ET
+q 0.880 0.900 0.930 RG 0.60 w 36.00 168.28 m 805.89 168.28 l S Q
+BT 0.100 0.130 0.180 rg /F2 8.80 Tf 1 0 0 1 46.00 196.28 Tm (Pramudi Pabasha) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 196.28 Tm (Manager, order, and payment side: order/cart flow, payment submission, payment manager) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 185.28 Tm (dashboard, and payment transaction handling.) Tj ET
+q 0.984 0.988 0.992 rg 36.00 126.28 769.89 42.00 re f Q
+q 0.880 0.900 0.930 RG 0.60 w 36.00 126.28 m 805.89 126.28 l S Q
+BT 0.100 0.130 0.180 rg /F2 8.80 Tf 1 0 0 1 46.00 150.28 Tm (Dulanjali) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 150.28 Tm (Support and review management side: customer support tickets, ticket management, reviews,) Tj ET
+BT 0.260 0.300 0.360 rg /F1 8.20 Tf 1 0 0 1 223.00 139.28 Tm (ratings, and review analytics.) Tj ET
+BT 0.050 0.120 0.200 rg /F2 13.00 Tf 1 0 0 1 36.00 96.28 Tm (Key Features) Tj ET
+BT 0.270 0.310 0.380 rg /F1 8.80 Tf 1 0 0 1 36.00 76.28 Tm (Customer login/signup, user profile management, role-based dashboards, vehicle listing and filtering, add/update/delete vehicle) Tj ET
+BT 0.270 0.310 0.380 rg /F1 8.80 Tf 1 0 0 1 36.00 64.28 Tm (records, vehicle parts management, part request handling, mechanic work tracking, employee salary management, leave request) Tj ET
+BT 0.270 0.310 0.380 rg /F1 8.80 Tf 1 0 0 1 36.00 52.28 Tm (workflow, cart/order flow, payment slip handling, payment manager dashboard, support ticket management, review/rating) Tj ET
+BT 0.270 0.310 0.380 rg /F1 8.80 Tf 1 0 0 1 36.00 40.28 Tm (management, and PDF/report downloads.) Tj ET
+BT 0.180 0.220 0.280 rg /F2 8.80 Tf 1 0 0 1 36.00 36.00 Tm (Screenshots included: 33 UI screens from user, employee, vehicle, parts, mechanic, payment, support, and review modules.) Tj ET
+
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000119 00000 n 
+0000000168 00000 n 
+0000000423 00000 n 
+0000008075 00000 n 
+0000008330 00000 n 
+trailer
+<<
+/Size 8
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+13086
+%%EOF
