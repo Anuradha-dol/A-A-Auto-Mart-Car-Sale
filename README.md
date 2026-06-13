@@ -1,16 +1,19 @@
 # A-A Auto Mart Car Sale
 
-A-A Auto Mart Car Sale is a full-stack MERN application for managing vehicle sales, vehicle parts, mechanic work, orders, payments, employees, users, reviews, and customer support.
+Our A-A Auto Mart Car Sale project is a full-stack MERN application for managing vehicle sales, vehicle parts, mechanic work, orders, payments, employees, users, reviews, and customer support.
 
-The project is organized as one integrated final application with a Node/Express backend, a React/Vite frontend, and MongoDB as the database.
+We organized the project as one integrated final application with a Node/Express backend, a React/Vite frontend, and MongoDB as the database.
+
+## Landing Page Preview
+
+![A-A Auto Mart landing page](./docs/landing-page-screenshot.png)
 
 ## Project Documentation
 
-The full project walkthrough with the project overview, module screenshots, UI descriptions, key features, and module contribution notes is available here:
+- [UI Screenshots](./docs/A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf)
+- [Project Report](./docs/A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf)
 
-[A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf](./docs/A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf)
-
-This README focuses on the repository structure, framework details, setup instructions, branch information, and security notes. The PDF can be used as the visual project guide for understanding the complete user interface and module flow.
+The PDF includes the project overview, module UI screenshots, feature descriptions, technology stack, and contribution details. This README includes the repository structure, framework details, setup instructions, branch information, and security notes.
 
 ## Features
 
@@ -26,20 +29,20 @@ This README focuses on the repository structure, framework details, setup instru
 
 | Layer | Frameworks / Libraries | Purpose |
 | --- | --- | --- |
-| Frontend framework | React | Component-based user interfaces for dashboards, forms, profiles, and customer pages. |
-| Frontend build tool | Vite | Fast local development server and production build tooling. |
-| Routing | React Router | Client-side page routing across customer, manager, employee, support, review, payment, and vehicle modules. |
-| API communication | Axios | HTTP requests from the frontend to the Express backend APIs. |
-| UI libraries | Material UI, React Icons, Framer Motion | Form controls, icons, visual components, and UI animations. |
-| Charts and reports | Recharts, jsPDF, html2canvas | Dashboard charts and downloadable/printable report generation. |
-| Backend runtime | Node.js | JavaScript runtime for the backend server. |
-| Backend framework | Express | REST API routing and middleware handling. |
-| Database | MongoDB Atlas / MongoDB with Mongoose | Data storage, schemas, validation, and database queries. |
-| File uploads | Multer | Vehicle images, part images, profile images, and payment slip uploads. |
-| Authentication support | JSON Web Token | Token-based authentication support for protected backend actions. |
-| Review analysis | Sentiment | Basic sentiment analysis for customer review text. |
-| Configuration | dotenv | Loads local environment variables such as `MONGO_URI`, `PORT`, and `JWT_SECRET`. |
-| Cross-origin access | CORS | Allows frontend requests to communicate with the backend during development. |
+| Frontend framework | React | We used React to build dashboards, forms, profiles, and customer pages. |
+| Frontend build tool | Vite | We used Vite for local development and frontend builds. |
+| Routing | React Router | We used React Router to handle page navigation between the modules. |
+| API communication | Axios | We used Axios to connect the frontend with the Express backend APIs. |
+| UI libraries | Material UI, React Icons, Framer Motion | We used these libraries for form controls, icons, components, and animations. |
+| Charts and reports | Recharts, jsPDF, html2canvas | We used these packages for charts and downloadable/printable reports. |
+| Backend runtime | Node.js | We used Node.js to run the backend server. |
+| Backend framework | Express | We used Express for API routes and middleware. |
+| Database | MongoDB Atlas / MongoDB with Mongoose | We used MongoDB and Mongoose for data storage, schemas, and queries. |
+| File uploads | Multer | We used Multer for vehicle, part, profile, and payment slip uploads. |
+| Authentication support | JSON Web Token | We used JWT for token-based authentication support. |
+| Review analysis | Sentiment | We used Sentiment for basic customer review text analysis. |
+| Configuration | dotenv | We used dotenv to load values such as `MONGO_URI`, `PORT`, and `JWT_SECRET`. |
+| Cross-origin access | CORS | We used CORS so the frontend can communicate with the backend during development. |
 
 ## Repository Structure
 
@@ -78,7 +81,7 @@ frontend/
 
 ## Project Integration and Maintenance
 
-The final project integration was handled on the `final` branch by Anuradha. This work included bringing the completed feature areas into one usable project structure, cleaning the Git repository, converting `backend/routes` from an embedded repository into normal source files, removing tracked dependency folders and runtime uploads, removing tracked environment secrets, adding environment examples, and documenting the project for external users.
+The final project integration was handled on the `final` branch by Anuradha. In this part, we brought the completed feature areas into one project structure, cleaned the Git repository, converted `backend/routes` into normal source files, removed tracked dependency folders, uploads, and environment secrets, added environment examples, and updated the documentation.
 
 ## Branch Guide
 
@@ -179,4 +182,4 @@ npm start
 
 ## Final Branch Notes
 
-The `final` branch is intended to hold the complete integrated project. Generated dependency folders and local runtime files should not be committed. Source files, route files, package manifests, lockfiles, and documentation should be committed.
+We used the `final` branch for the complete integrated project. Generated dependency folders and local runtime files should not be committed. Source files, route files, package manifests, lockfiles, and documentation should be committed.
