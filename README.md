@@ -8,7 +8,7 @@ The project is organized as one integrated final application with a Node/Express
 
 The full project walkthrough with the project overview, module screenshots, UI descriptions, key features, and module contribution notes is available here:
 
-[A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf](./A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf)
+[A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf](./docs/A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf)
 
 This README focuses on the repository structure, framework details, setup instructions, branch information, and security notes. The PDF can be used as the visual project guide for understanding the complete user interface and module flow.
 
