@@ -1,8 +1,3 @@
-const express = require("express");
-const router = express.Router();
-const User = require("../model/users");
-const verifyToken = require("../middleware/verifyToken");
-
 const jwt = require("jsonwebtoken");
 
 const verifyToken = (req, res, next) => {
@@ -10,8 +5,13 @@ const verifyToken = (req, res, next) => {
   if (!token) return res.status(401).json({ message: "No token provided" });
 
   try {
-    const decoded = jwt.verify(token, "your_jwt_secret");
-    req.user = decoded; // {id, role}
+    const secret = process.env.JWT_SECRET;
+    if (!secret) {
+      return res.status(500).json({ message: "JWT secret is not configured" });
+    }
+
+    const decoded = jwt.verify(token, secret);
+    req.user = decoded;
     next();
   } catch (err) {
     res.status(403).json({ message: "Invalid token" });

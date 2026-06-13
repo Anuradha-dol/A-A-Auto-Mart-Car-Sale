@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
@@ -63,5 +64,5 @@ app.use("/api/tickets", ticketRouter);
 app.use("/api/reply",replyRouter);
 app.use("/api/analyze", analyzeRoute);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Server running on PORT ${PORT}`));
