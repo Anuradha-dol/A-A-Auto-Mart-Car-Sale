@@ -4,6 +4,14 @@ A-A Auto Mart Car Sale is a full-stack MERN application for managing vehicle sal
 
 The project is organized as one integrated final application with a Node/Express backend, a React/Vite frontend, and MongoDB as the database.
 
+## Project Documentation
+
+The full project walkthrough with the project overview, module screenshots, UI descriptions, key features, and module contribution notes is available here:
+
+[A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf](./A_A_Auto_Mart_Web_App_Screenshots_Updated.pdf)
+
+This README focuses on the repository structure, framework details, setup instructions, branch information, and security notes. The PDF can be used as the visual project guide for understanding the complete user interface and module flow.
+
 ## Features
 
 - User management: customer and staff user accounts, profile management, login, and role-based dashboard access.
@@ -16,32 +24,22 @@ The project is organized as one integrated final application with a Node/Express
 
 ## Tech Stack
 
-### Frontend
-
-- React
-- Vite
-- React Router
-- Axios
-- Material UI
-- React Icons
-- Framer Motion
-- Recharts
-- jsPDF and html2canvas
-
-### Backend
-
-- Node.js
-- Express
-- MongoDB with Mongoose
-- Multer for file uploads
-- JSON Web Token support
-- Sentiment package for review analysis
-- CORS
-- dotenv for environment configuration
-
-### Database
-
-- MongoDB Atlas or a local MongoDB connection string configured with `MONGO_URI`.
+| Layer | Frameworks / Libraries | Purpose |
+| --- | --- | --- |
+| Frontend framework | React | Component-based user interfaces for dashboards, forms, profiles, and customer pages. |
+| Frontend build tool | Vite | Fast local development server and production build tooling. |
+| Routing | React Router | Client-side page routing across customer, manager, employee, support, review, payment, and vehicle modules. |
+| API communication | Axios | HTTP requests from the frontend to the Express backend APIs. |
+| UI libraries | Material UI, React Icons, Framer Motion | Form controls, icons, visual components, and UI animations. |
+| Charts and reports | Recharts, jsPDF, html2canvas | Dashboard charts and downloadable/printable report generation. |
+| Backend runtime | Node.js | JavaScript runtime for the backend server. |
+| Backend framework | Express | REST API routing and middleware handling. |
+| Database | MongoDB Atlas / MongoDB with Mongoose | Data storage, schemas, validation, and database queries. |
+| File uploads | Multer | Vehicle images, part images, profile images, and payment slip uploads. |
+| Authentication support | JSON Web Token | Token-based authentication support for protected backend actions. |
+| Review analysis | Sentiment | Basic sentiment analysis for customer review text. |
+| Configuration | dotenv | Loads local environment variables such as `MONGO_URI`, `PORT`, and `JWT_SECRET`. |
+| Cross-origin access | CORS | Allows frontend requests to communicate with the backend during development. |
 
 ## Repository Structure
 
