@@ -69,9 +69,9 @@ frontend/
 
 | Area | Contributor |
 | --- | --- |
-| User management | Supuni |
 | Employee management, salary, and leave management | Anuradha |
 | Final project integration, Git cleanup, security cleanup, and documentation | Anuradha |
+| User management | Supuni |
 | Vehicle parts, vehicle mechanics, and mechanic tickets | Damsi |
 | Vehicle management, orders, and payments | Pabasha |
 | Reviews, support, and customer care | Dulajali |
