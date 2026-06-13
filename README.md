@@ -73,9 +73,14 @@ frontend/
 | --- | --- |
 | User management | Supuni |
 | Employee management, salary, and leave management | Anuradha |
+| Final project integration, Git cleanup, security cleanup, and documentation | Anuradha |
 | Vehicle parts, vehicle mechanics, and mechanic tickets | Damsi |
 | Vehicle management, orders, and payments | Pabasha |
 | Reviews, support, and customer care | Dulajali |
+
+## Project Integration and Maintenance
+
+The final project integration was handled on the `final` branch by Anuradha. This work included bringing the completed feature areas into one usable project structure, cleaning the Git repository, converting `backend/routes` from an embedded repository into normal source files, removing tracked dependency folders and runtime uploads, removing tracked environment secrets, adding environment examples, and documenting the project for external users.
 
 ## Branch Guide
 
