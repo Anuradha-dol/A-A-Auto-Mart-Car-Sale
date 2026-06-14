@@ -1,4 +1,3 @@
-// pass = J6ATIV2whNZLirTz
 const express = require("express");
 const mongoose = require("mongoose");
 const reviewRouter = require("./Route/ReviewRoute");
@@ -21,9 +20,15 @@ app.use("/tickets", ticketRouter);
 app.use("/reply",replyRouter);
 app.use("/analyze", analyzeRoute);
 
-mongoose.connect("mongodb+srv://admin:J6ATIV2whNZLirTz@cluster0.aif611n.mongodb.net/")
-.then(()=> console.log("Connected to MongoDB"))
-.then (()=>{
-    app.listen(5000);
-})
-.catch((err)=> console.log((err)));
+const mongoUri = process.env.MONGO_URI;
+
+if (!mongoUri) {
+    throw new Error("MONGO_URI is not configured");
+}
+
+mongoose.connect(mongoUri)
+    .then(() => console.log("Connected to MongoDB"))
+    .then(() => {
+        app.listen(process.env.PORT || 5000);
+    })
+    .catch((err) => console.log((err)));
