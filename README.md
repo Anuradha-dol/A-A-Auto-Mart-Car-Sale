@@ -11,7 +11,7 @@ We organized the project as one integrated final application with a Node/Express
 ## Project Documentation
 
 - [A-A Auto Mart -UI Screenshots ](./docs/A_A_Auto_Mart_UI_Screenshots.pdf)
-- - [A-A Auto Mart - Project Overview Report](./docs/A_A_Auto_Mart_UI_Screenshot.pdf)
+- [A-A Auto Mart - Project Overview Report](./docs/A-A Auto Mart - Project Overview Report.pdf).
 
 The project report PDF includes the project overview, technology stack, and contribution details. The UI screenshots PDF includes the module screens and visual project walkthrough. This README includes the repository structure, framework details, setup instructions, branch information, and security notes.
 
