@@ -1,0 +1,143 @@
+:root {
+  --accent-start: #10b981; /* green start */
+  --accent-end: #2563eb;   /* blue end */
+  --cancel-start: #f87171;
+  --cancel-end: #ef4444;
+  --radius-md: 12px;
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+  --transition: 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+.adduser-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+
+  /* Vehicle-themed background */
+  background-image: url('https://images.unsplash.com/photo-1601597117248-0f3ee3b639f7?auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Card */
+.adduser-card {
+  background: rgba(255, 255, 255, 0.95); /* translucent */
+  border-radius: var(--radius-md);
+  padding: 30px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+  animation: fadeIn 0.8s ease-in-out;
+  border-top: 6px solid var(--accent-start); /* green-blue top border */
+}
+
+/* Header */
+.adduser-card .title {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--accent-end); /* blue text */
+  text-align: center;
+  font-weight: 700;
+}
+
+.adduser-card .subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #4b5563; /* subtle gray */
+}
+
+/* Form */
+.adduser-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.adduser-form input,
+.adduser-form select {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  transition: 0.3s;
+  background-color: #f0fdf4; /* soft green background */
+}
+
+.adduser-form input:focus,
+.adduser-form select:focus {
+  outline: none;
+  border: 1px solid var(--accent-start);
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4), 0 0 12px rgba(37, 99, 235, 0.4); /* green + blue glow */
+}
+
+/* Buttons */
+.submit-btn {
+  padding: 12px;
+  border: none;
+  background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
+  color: #ffffff;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, var(--accent-end), var(--accent-start));
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* Cancel button */
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-btn {
+  border: none;
+  background: linear-gradient(90deg, var(--cancel-start), var(--cancel-end));
+  color: #ffffff;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.2s;
+}
+
+.cancel-btn:hover {
+  background: linear-gradient(90deg, #b91c1c, #ef4444);
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .adduser-card {
+    padding: 20px;
+  }
+
+  .adduser-card .title {
+    font-size: 1.5rem;
+  }
+}

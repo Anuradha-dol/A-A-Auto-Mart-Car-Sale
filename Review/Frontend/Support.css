@@ -1,0 +1,344 @@
+/* ==== LIGHT MINT DASHBOARD THEME — SUPPORT.CSS ==== */
+
+/* ---------- Base Container ---------- */
+.support-container {
+  min-height: 77vh;
+  background: linear-gradient(180deg, #e9f7ef 0%, #f7fff6 100%);
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #0f172a; /* dark slate base text */
+}
+
+/* ---------- Card-style Form ---------- */
+.support-form {
+  width: 420px;
+  background: #ffffff;               /* white card */
+  padding: 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.support-form input,
+.support-form textarea,
+.support-form select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #e5e7eb;         /* light gray border */
+  border-radius: 8px;
+  background: #ffffff;
+  color: #111827;
+}
+
+.support-form input::placeholder,
+.support-form textarea::placeholder,
+.support-form select::placeholder {
+  color: #9ca3af;                    /* medium gray placeholder */
+}
+
+.support-form input:focus,
+.support-form textarea:focus,
+.support-form select:focus {
+  border-color: #10b981;             /* emerald focus */
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+  outline: none;
+}
+
+.support-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Primary submit button (green gradient) */
+.support-form button {
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.02s ease;
+}
+.support-form button:hover {
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.28);
+}
+.support-form button:active { transform: translateY(1px); }
+
+/* ---------- Utility Buttons ---------- */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.form-actions button[type="button"] {
+  background: #f3f4f6;               /* light neutral */
+  color: #111827;
+  border: 1px solid #e5e7eb;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.form-actions button[type="button"]:hover {
+  background: #e5e7eb;
+}
+
+.add-ticket-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.add-ticket-btn {
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.02s ease;
+}
+.add-ticket-btn:hover {
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.28);
+}
+.add-ticket-btn:active { transform: translateY(1px); }
+
+/* ---------- Header & Table ---------- */
+.support-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1f2937;            /* dark heading */
+  text-shadow: none;         /* removed glow */
+}
+
+.filter-section {
+  margin: 20px 0;
+  color: #065f46;            /* deep emerald label */
+}
+
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: #0f172a;
+  background: transparent;
+}
+
+.ticket-table th,
+.ticket-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;   /* light divider */
+}
+
+.ticket-table .status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+.status-dot.onhold { background-color: #60a5fa; }   /* soft blue */
+.status-dot.inprogress { background-color: #10b981; } /* emerald */
+
+.selected { background-color: rgba(16, 185, 129, 0.08); /* mint highlight */ }
+
+/* ---------- Message Thread ---------- */
+.message-thread {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+}
+
+.message { margin-bottom: 10px; }
+
+.user {
+  text-align: right;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.attachments {
+  font-size: 12px;
+  color: #6b7280; /* gray-500 */
+  margin-top: 5px;
+}
+
+/* ---------- Draft / Post Buttons ---------- */
+.button-group { margin-top: 10px; }
+
+.save-draft,
+.post {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-draft {
+  background-color: #f3f4f6;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+}
+.save-draft:hover { background-color: #e5e7eb; }
+
+.post {
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: #fff;
+  transition: box-shadow 0.2s ease, transform 0.02s ease;
+}
+.post:hover { box-shadow: 0 6px 20px rgba(16,185,129,0.28); }
+.post:active { transform: translateY(1px); }
+
+/* ---------- Modal ---------- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal.ticket-detail-modal {
+  max-width: 450px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  color: #0f172a;
+}
+
+.modal.ticket-detail-modal p { margin: 6px 0; }
+
+.close-details {
+  margin-top: 14px;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.02s ease;
+}
+.close-details:hover { box-shadow: 0 6px 20px rgba(16,185,129,0.28); }
+.close-details:active { transform: translateY(1px); }
+
+.unread-badge {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 6px;
+  background: #ef4444; /* red-500 */
+  border-radius: 50%;
+}
+
+/* ---------- Toolbar / Search ---------- */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.search-input {
+  width: 320px;
+  max-width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #111827;
+}
+.search-input::placeholder { color: #9ca3af; }
+
+/* Support overlay fix */
+.support-modal-overlay {
+  display: grid;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 9999;
+  place-items: center;
+}
+
+/* ---------- Actions column ---------- */
+/* Preferred classes (new) */
+.actions {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* Blue Edit, Red Delete */
+.action-btn.edit { background: #2563eb; color: #fff; }
+.action-btn.delete { background: #ef4444; color: #fff; }
+
+/* Ensure table buttons never stretch */
+.ticket-table td button { width: auto; }
+
+/* --- Compatibility with older JSX that uses .edit-btn / .delete-btn --- */
+.ticket-table td .edit-btn,
+.ticket-table td .delete-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  margin-right: 8px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+.ticket-table td .edit-btn { background: #2563eb; color: #fff; }   /* blue */
+.ticket-table td .delete-btn { background: #ef4444; color: #fff; } /* red */
+
+.ticket-table td .edit-btn:hover,
+.action-btn.edit:hover { filter: brightness(1.06); }
+
+.ticket-table td .delete-btn:hover,
+.action-btn.delete:hover { filter: brightness(1.06); }
+
+
+
+
+

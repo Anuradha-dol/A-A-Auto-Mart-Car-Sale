@@ -1,0 +1,173 @@
+/* Container for the whole profile page */
+/* Container for the whole profile page */
+.user-profile-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #d1fae5, #ffffff); /* green + white gradient */
+  font-family: Arial, sans-serif;
+  transition: background 0.5s ease; /* smooth transition if background changes dynamically */
+}
+
+
+
+
+/* Logout button styling */
+.logout-button {
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ef4444; /* Red */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s background-color;
+}
+
+.logout-button:hover {
+  background-color: #dc2626;
+}
+
+/* Profile card styling */
+.profile-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Profile image container */
+.profile-img-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.profile-img {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3b82f6; /* Blue border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-img-container input[type="file"] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* User info display */
+.user-info {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.user-info h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.user-info p {
+  color: #4b5563;
+  margin: 0.25rem 0;
+}
+
+/* Edit input fields */
+.edit-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.edit-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Buttons general style */
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0.25rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+/* Specific button colors */
+.edit-button {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #2563eb;
+}
+
+.save-button {
+  background-color: #16a34a;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #15803d;
+}
+
+.cancel-button {
+  background-color: #9ca3af;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #6b7280;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .profile-card {
+    padding: 1.5rem;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .user-info h2 {
+    font-size: 1.5rem;
+  }
+}
